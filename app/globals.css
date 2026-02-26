@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Custom Dark Mode Scrollbar for a premium look */
+::-webkit-scrollbar {
+width: 10px;
+}
+::-webkit-scrollbar-track {
+background: #0f172a; /* matches slate-900 */
+}
+::-webkit-scrollbar-thumb {
+background: #1e293b; /* matches slate-800 */
+border: 2px solid #0f172a;
+border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+background: #334155; /* matches slate-700 */
+}
+/* Ensure smooth scrolling throughout the application */
+html {
+scroll-behavior: smooth;
+}
+body {
+margin: 0;
+padding: 0;
+min-height: 100vh;
+}
