@@ -12,7 +12,7 @@
     "next": "^15.1.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "lucide-react": "^0.450.0"
+    "lucide-react": "^0.475.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
